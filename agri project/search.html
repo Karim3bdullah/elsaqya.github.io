@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- render all elements normally -->
+      <link rel="stylesheet" href="css/normalize.css" >
+      <!-- font awesome library -->
+       <link rel="stylesheet" href="css/all.min.css" >
+        <!-- main template css file -->
+      <link rel="stylesheet" href="css/serch.css" >
+      <!-- google fonts -->
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;700&family=Jomhuria&family=Open+Sans:wght@400;700&family=Work+Sans:wght@200;300;500;600;700;800&display=swap" rel="stylesheet">
+ 
+    <title>دليلك الزراعى</title>
+</head>
+<body dir="rtl">
+     <!-- star header  -->
+   <header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="imges/final logo.png" alt="">
+      </a>
+      <nav>
+        <i class="fas fa-bars toggle-menu"></i> 
+        <ul>
+          
+          
+         
+          
+          <li><a  href="index.html" target="_blank">الصفحة الرئيسية</a></li>
+          <li> <a class="active" href="#services">دليلك الزراعي</a> </li>
+          <li> <a href="articles.html" target="_blank"> مقالاتك</a> </li>
+          <li> <a href="index.html#about" target="_blank"> حول</a> </li>
+          <li> <a href="index.html#contact" target="_blank"> تواصل</a> </li>
+          
+           
+          
+          
+         
+
+        </ul>
+       
+      </nav>
+
+    </div>
+   </header>
+    <!-- end header  -->
+
+ <!-- start search section -->
+ <div class="search">
+    <div class="overlay"></div>
+        <div class="box">
+           
+            <div class="intro-text">
+                <h1> أهلاً بك<br> فى دليلك الزراعى</h1>
+                <p>ابدا باستكشاف عالم النبات</p>
+          
+            </div>
+            <form action="">
+              
+              
+              <input type="search" id="search" onkeyup="my_search(this.value)" name="plant" placeholder="...ابحث هنا">
+              <!-- <input type="text" id="search" onkeyup="search(this.value)" aria-label="ابحث هنا" placeholder="ابحث هنا..."> -->
+
+              <div  class="shown-results" id="results">
+              </div>
+              <!-- <div id="showData"></div> -->
+              
+
+
+              <!-- <input type="email" name="mail"  placeholder="Your Email"/> -->
+           
+            </form>
+          </div>
+    
+ </div>
+ 
+  <!-- end search section -->
+  <!-- start show section -->
+  <div class="show">
+    <div class="container" >
+      
+      <div class="main-heading">
+        <h2 class="special-heading">الساقية</h2>
+        <p class="smallest">كل المعلومات الكافيه عن 
+          <br>
+        </p>
+          <div class="plant-name" id="showData"></div>
+        
+        <br>
+     
+        <div class="description" >الوصف النباتى :
+          <br>
+          <hr>
+          <div class="paragraph" id="showdescription"></div>
+           
+         </div>
+         <hr>
+          
+        <div class="plant-info" >
+          <h2>تعريف النبات :</h2>
+          <br>
+          
+          <div class="ident" id="identification"></div>
+          <br>
+          <hr>
+        </div>
+        <div class="plant-b" >
+          <h2>فوائدالنبات :</h2>
+          <br>
+          <div class="benef" id="benefits"></div>
+        </div>
+        </div> 
+    <div class="image" id="showimage"></div>
+      </div>
+     
+        
+       <!-- <img class="moda" src="imges/plantb (2).jpg" alt="">  -->
+      </div>
+    </div>
+  </div>
+  <!-- end show section -->
+  <!-- start stats -->
+  <div class="stats">
+    <div class="container">
+      <div class="box">
+        <i id="icon-1" class="fa-solid fa-temperature-arrow-up"></i>
+       <div class="number" id="temperature"></div>
+       <p>درجة مئوية</p>
+      </div>
+      <div class="box">
+        <i id="icon-2" class="fa-solid fa-droplet"></i>
+       <div class="number" id="water"></div>
+       <p> للفدان الواحد</p>
+      </div>
+      <div class="box">
+        <i id="icon-3" class="fa-regular fa-calendar-days"></i>
+       <div class="number" id="time"></div>
+       <p>شهرا للنمو</p>
+      </div>
+      
+    </div>
+  </div>
+  
+ 
+ <!-- star video -->
+ <div class="video" >
+  <div class="main-heading">
+    <h2 class="special-heading">فديوهات</h2>
+    <p>لرؤية التطبيقات العملية حول النبات</p>
+    </p>
+  </div>
+  <div class="container">
+     
+      <div class="box ">
+         
+          <div class="content" >
+             <div class="title1" id="title1">
+              <h3>
+
+              </h3>
+             </div>
+             <div class="v1" id="video1">
+             <iframe src="" frameborder="0"></iframe>
+            </div> 
+            </div>
+          
+          
+      </div>
+      <div class="box ">
+             
+          <div class="content" >
+             <h3> الافات الزراعية </h3>  
+             <div class="v2" id="video2">
+           <iframe src=""  frameborder="0"></iframe>
+          </div>
+          </div>
+          </div>
+          
+      
+      <div class="box ">   
+          <div class="content" >
+            <h3> الزراعة في المنزل</h3>
+           <div class="v3" id="video3">
+            <iframe src="" frameborder="0"></iframe>
+          </div>
+          </div>
+          </div>
+          
+      </div>
+   
+     
+      
+  </div>
+
+<!-- end video -->
+  <!-- Start Footer -->
+<div class="footer">
+  <div class="container">
+    <img src="imges/final logo.png" alt="logo">
+    <p>مواقعنا</p>
+    <div class="social-icons">
+      <i class="fab fa-facebook-f"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fa-solid fa-house"></i>
+      <i class="fab fa-linkedin"></i>
+    </div>
+    <p class="copyright">&copy; 2023 <span>الساقية</span> جميع الحقوق محفوظة</p>
+  </div>
+</div>
+ <!-- end Footer -->
+ 
+<script type="text/javascript">
+  
+function my_search(text) {
+    let result = ''
+    if (text.length === 0) {
+        document.getElementById('results').innerHTML = ''
+        document.getElementById('showData').innerHTML = ''
+    } else {
+        fetch('data.json').then(data => data.json()).then(json => {
+            json.forEach((val, index) => {
+                if (val.keys.match(text)) {
+                    result += `<a href="javascript:void(0)" onclick="showData(${index})">${val.name}</a>`
+                }
+            })
+        }).then(() => {
+            document.getElementById('results').innerHTML = result
+        })
+    }
+}
+function showData(index) {
+    fetch('data.json').then(data => data.json()).then(json => {
+        document.getElementById('showData').innerHTML = '<div class="plant-name"><h1 >'+json[index].name+'</h1><div>'
+        document.getElementById('showdescription').innerHTML = '<div class="paragraph"><p>'+json[index].description+'</p><div>'
+          document.getElementById('showimage').innerHTML = '<div class="image"><img src="'+json[index].image+'"></div>'
+          document.getElementById('identification').innerHTML = '<div class="ident">'+json[index].identification+'</div>'
+          document.getElementById('benefits').innerHTML = '<div class="benef">'+json[index].benefits+'</div>'
+          document.getElementById('temperature').innerHTML = '<div class="plant-info">'+json[index].temperature+'</div>'
+          document.getElementById('time').innerHTML = '<div class="plant-info">'+json[index].time+'</div>'
+          document.getElementById('water').innerHTML = '<div class="plant-info">'+json[index].water+'</div>'
+          document.getElementById('title1').innerHTML = '<div class="title1"><h3>'+json[index].title1+'<h3><div>'
+          document.getElementById('video1').innerHTML = '<div class="v1" >'+json[index].video1+'</div>'
+          document.getElementById('video2').innerHTML = '<div class="v2">'+json[index].video2+'</div>'
+          document.getElementById('video3').innerHTML = '<div class="v3">'+json[index].video3+'</div>'
+          
+    })
+    
+}
+
+
+
+
+</script>
+
+</body>
+</html>
